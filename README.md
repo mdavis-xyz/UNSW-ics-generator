@@ -11,3 +11,5 @@ You may be thinking
 > What? It's not fully automatic? I could just enter a few weekly events myself. What does this script give me?
 
 Good question. The problem with just adding repeating events is that you need to specify the start and end date for each weekly event (e.g. does it end in week 12 or week 13?), and fortnightly events get messed up by the mid sem break.
+
+This script uses Python 3, not Python 2.

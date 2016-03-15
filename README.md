@@ -1,5 +1,6 @@
 # UNSW-ics-generator
-Generate ics calendar files for your UNSW timetable
+Generate ics calendar files for your UNSW timetable.
+This script is designed for the UNSW semester structure, but can probably work for any students. (I provide no guarentees though.)
 
 When you run this python script, you will be asked what subjects you do, what classes you have for each subject, what weeks they are, etc. The output of the script is a `.ics` calendar file, which can be uploaded to any calendar program which supports direct `.ics` importing. (e.g. Owncloud, Thunderbird, Google Calendars etc. Many calendar programs only accept dynamic caldav links.) 
 
@@ -12,3 +13,4 @@ You may be thinking
 Good question. The problem with just adding repeating events is that you need to specify the start and end date for *each* weekly event (e.g. does it end in week 12 or week 13?), and fortnightly events get messed up by the mid sem break.
 
 This script uses Python 3, not Python 2. To use this script, just run it in a terminal, and type responses when prompted.
+
